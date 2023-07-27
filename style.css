@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Montserrat:wght@300;400;600;700&family=VT323&display=swap');
+
+
+:root {
+    --fonte-principal: 'Montserrat';
+    --fonte-matrix:  'VT323';
+    --primary-color: #008F11;
+    --background-color: #0D0208;
+}
+
+body{
+    background-color: var(--background-color);
+    color: var(--primary-color);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    font-family: var(--fonte-principal);
+}
+
+h1{
+    font-size: 5rem;
+    font-family: var(--fonte-matrix);
+}
+
+h3{
+    margin-top: 20px;
+    font-size: 2rem;
+}
+
+.mensagem {
+    font-size: 1.5rem;
+    margin-top: 40px ;
+}
+
+.box{
+    border: 2px solid var(--primary-color);
+    display: inline-block;
+    font-size: 4rem;
+    padding: 10px;
+    margin: 20px;
+}
+
