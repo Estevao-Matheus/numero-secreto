@@ -11,12 +11,12 @@ recognition.addEventListener('result', onSpeak)
 function onSpeak (e) {
    chute = e.results[0][0].transcript;
    exibeChute(chute);
+   validaChute(chute);
 }
 
 function exibeChute (chute) {
     elementoChute.innerHTML = `
     <div>Você disse: </div>
     <span class="box">${chute}</span>
-    <div>O numero secreto é maior <i class="fa-solid fa-arrow-up"></i></div>
     `
 }

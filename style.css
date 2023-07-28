@@ -26,6 +26,11 @@ h1{
     font-family: var(--fonte-matrix);
 }
 
+h2{
+    font-size: 9rem;
+    font-family: var(--fonte-matrix);
+}
+
 h3{
     margin-top: 20px;
     font-size: 2rem;
