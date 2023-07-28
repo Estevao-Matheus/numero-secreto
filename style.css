@@ -5,6 +5,7 @@
     --fonte-principal: 'Montserrat';
     --fonte-matrix:  'VT323';
     --primary-color: #008F11;
+    --secondary-color: #00FF41;
     --background-color: #0D0208;
 }
 
@@ -49,3 +50,15 @@ h3{
     margin: 20px;
 }
 
+.btn-jogar {
+    padding: 8px 15px;
+    border-radius: 5px;
+    border:0;
+    background-color: var(--primary-color);
+    color:antiquewhite;
+    cursor: pointer;
+}
+
+.btn-jogar:hover {
+    background-color: var(--secondary-color);
+}
